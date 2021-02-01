@@ -30,4 +30,17 @@ public class CartManager {
         }
         return result;
     }
+    
+    // наивная реализация
+    public void removeById(int id) {
+        int length = items.length - 1;
+        PurchaseItem[] tmp = new PurchaseItem[length];
+        int index = 0;
+        for (PurchaseItem item : items) {
+            if (item.getId() != id) {
+                tmp[index] = item;
+                index++;
+            }
+        }
+    }
 }
