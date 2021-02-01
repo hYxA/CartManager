@@ -14,4 +14,6 @@ public class PurchaseItem {
     private int productPrise;
     private int price;
     private String productName;
+
+
 }
