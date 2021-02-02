@@ -40,7 +40,7 @@ public class CartManagerTestNonEmpty {
         manager.removeById(idToRemove);
 
         PurchaseItem[] actual = manager.getAll();
-        PurchaseItem[] expected = new PurchaseItem[]{third, second};
+        PurchaseItem[] expected = new PurchaseItem[]{third, second, first};
 
         assertArrayEquals(expected, actual);
     }
