@@ -3,8 +3,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b409e87-00ee-41d5-8232-5c5a5822c2c0" name="Default Changelist" comment="" />
+    <list default="true" id="4b409e87-00ee-41d5-8232-5c5a5822c2c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_02_2021_13_02__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_02_2021_13_02__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/manager/CartManagerTestNonEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/manager/CartManagerTestNonEmpty.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,48 +53,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.CartManagerTestNonEmpty.shouldRemoveIfNotExist">
-    <configuration name="CartManagerTestNonEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CartManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.manager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.CartManagerTestNonEmpty" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartManagerTestNonEmpty.shouldRemoveIfNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CartManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.manager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.CartManagerTestNonEmpty" />
-      <option name="METHOD_NAME" value="shouldRemoveIfNotExist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CartManagerTestNonEmpty.shouldRemoveIfNotExist" />
-        <item itemvalue="JUnit.CartManagerTestNonEmpty" />
-      </list>
-    </recent_temporary>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b409e87-00ee-41d5-8232-5c5a5822c2c0" name="Default Changelist" comment="" />
@@ -86,21 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612184526953</updated>
     </task>
-    <task id="LOCAL-00002" summary="doubling code">
-      <created>1612261364027</created>
+    <task id="LOCAL-00002" summary="added getAll">
+      <created>1612202805250</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1612261364028</updated>
+      <updated>1612202805250</updated>
     </task>
-    <task id="LOCAL-00003" summary="prepare manager">
-      <created>1612262242796</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1612262242796</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,11 +96,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update gitignore" />
-    <MESSAGE value="doubling code" />
-    <MESSAGE value="prepare manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepare manager" />
+    <MESSAGE value="added getAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getAll" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom" timestamp="1612201762562">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612201762562" />
+    <state width="1322" height="187" key="GridCell.Tab.0.center" timestamp="1612201762561">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612201762561" />
+    <state width="1322" height="187" key="GridCell.Tab.0.left" timestamp="1612201762561">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612201762561" />
+    <state width="1322" height="187" key="GridCell.Tab.0.right" timestamp="1612201762561">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612201762561" />
+    <state x="184" y="15" key="SettingsEditor" timestamp="1612201892380">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="15" key="SettingsEditor/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612201892380" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1612202808255">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612202808255" />
+    <state x="339" y="167" key="run.anything.popup" timestamp="1612201643174">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="167" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612201643174" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1612202976785">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1612202976785" />
   </component>
 </project>

@@ -2,13 +2,22 @@ package ru.netology.manager;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 import ru.netology.domain.CartManager;
 import ru.netology.domain.PurchaseItem;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+@ExtendWith(MockitoExtension.class)
 public class CartManagerTestNonEmpty {
+    @Mock
+    private CardRepository repository;
+    @InjectMocks
     private CartManager manager = new CartManager();
+
     private PurchaseItem first = new PurchaseItem(1,1,50,50,"first");
     private PurchaseItem second = new PurchaseItem(1,1,50,50,"second");
     private PurchaseItem third = new PurchaseItem(1,1,50,50,"third");
