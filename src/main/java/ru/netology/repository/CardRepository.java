@@ -8,4 +8,10 @@ public class CardRepository {
     public void save(PurchaseItem item) {
         int
     }
+
+    public void removeById(int idToRemove) {
+    }
+
+    public void findAll() {
+    }
 }
