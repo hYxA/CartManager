@@ -34,7 +34,7 @@ public class CartManagerTestNonEmpty {
     @Test
     public void shouldRemoveIfExist() {
         int idToRemove = 1;
-// настройка заглушки
+        // настройка заглушки
         PurchaseItem[] returned = new PurchaseItem[]{second, third};
         doReturn(returned).when(repository).findAll();
         doNothing().when(repository).removeById(idToRemove);
